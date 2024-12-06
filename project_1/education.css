@@ -38,7 +38,7 @@ html{
 .section{
     width: 100%;
     min-height: 100vh;
-    background-color: gray;
+    background:linear-gradient(45deg, teal, rgb(1,65,65));
 }
 .container{
     width: 80%;
@@ -55,22 +55,26 @@ html{
     width: 40%;
 }
 .img-section img{
-    width: 100%;
-    height: auto;
+    width: 80%;
+    height: 50vh;
+    border-radius: 50%;
+    border: 2px solid white;
 }
 .content-section .title{
     text-transform: uppercase;
     font-size: 28px;
+    color: white;
 }
 .content-section .content h3{
     margin-top: 20px;
-    color: black;
+    color:white;
     font-size: 19px;
 }
 .content-section .content p{
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 10px;
     line-height: 1.5;
+    color: white;
 }
 .content-section .content .button{
     margin-top: 30px;
